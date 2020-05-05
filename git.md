@@ -1,6 +1,6 @@
 # **Hello World！**
 
-**git为每个人分配了1g的空间使用。**
+**github免费为每个用户分配了1g的空间使用。**
 
 [TOC]
 
@@ -31,7 +31,7 @@
 ### 配置无访问的拉代码和推代码。
 
 ```
-git config --global credential.helper stor
+git config --global credential.helper store
 ```
 
 ### 新增代码或修改代码或新增文件的上传到远程仓库的步骤。
