@@ -40,3 +40,6 @@ git commit -m "message"
 git push
 ```
 
+### 克隆远程仓库。
+
+git clone https://github.com/yourGitId/yourRepoName.git
