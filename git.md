@@ -2,6 +2,10 @@
 
 **git为每个人分配了1g的空间使用。**
 
+[TOC]
+
+
+
 ## git 命令版：
 
 ### 配置全局的邮箱和用户名，log日志中的用户名即改用户名。
@@ -30,7 +34,7 @@
 git config --global credential.helper stor
 ```
 
-### 上传代码的步骤。
+### 新增代码或修改代码或新增文件的上传到远程仓库的步骤。
 
 ```
 git add .
@@ -40,6 +44,30 @@ git commit -m "message"
 git push
 ```
 
+### 删除废弃文件的步骤。
+
+```
+git rm -r
+```
+
+### 添加gitignore忽略无须上传的文件。
+
+```
+touch .gitignore
+```
+
+执行完毕后会在当前目录产生一个.gitignore文件，范本：
+
+/demo1/target/
+/demo1/src/test/
+/demo1/.idea/
+/demo1/.project/
+/demo1/.settings/
+
 ### 克隆远程仓库。
 
+```
 git clone https://github.com/yourGitId/yourRepoName.git
+```
+
+### git本地仓库关联之后，无法删除的解决措施。
