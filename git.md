@@ -28,6 +28,27 @@
  git push
 ```
 
+### 手动绑定远程仓库
+
+```
+# git初始化
+git init
+# 设置remote地址
+git remote add github 地址
+```
+
+### 删除与远程仓库的关联
+
+```
+git remote rm github
+```
+
+### 查看本地与远程仓库的分支情况
+
+```
+git remote -v
+```
+
 ### 配置无访问的拉代码和推代码。
 
 ```
@@ -71,3 +92,8 @@ git clone https://github.com/yourGitId/yourRepoName.git
 ```
 
 ### git本地仓库关联之后，无法删除的解决措施。
+
+```
+rm -rf .git
+```
+
