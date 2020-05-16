@@ -35,6 +35,8 @@
 git init
 # 设置remote地址
 git remote add github 地址
+# 第一次提交需要远程分支名称，比如master
+git push -u origin [分支名称]
 ```
 
 ### 删除与远程仓库的关联
